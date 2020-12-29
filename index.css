@@ -1,0 +1,63 @@
+/* general style*/
+
+body {
+    margin: 0;
+    font-family: 'Poiret One', cursive;
+    background-image: url("./img/cancanaleta4.jpg");
+    background-repeat: no-repeat;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+}
+
+/*text styles*/
+
+h1 span {
+    color: rgb(145, 9, 9);
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 1px white;
+}
+
+/*nav bar*/
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:white;
+    margin: auto;
+    font-size: 3em;
+    text-shadow: 1px 1px black;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid black;
+}
+
+.nav-item {
+    margin: 0 1em;
+}
+
+/* general container */
+
+.container {
+    width: 100%;
+}
+
+
+@media (max-width: 800px){
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
